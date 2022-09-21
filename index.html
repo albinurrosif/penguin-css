@@ -209,8 +209,7 @@
   </body>
 </html>
 
-<!--
-    <style>
+<style>
   :root {
     --penguin-size: 300px;
     --penguin-skin: gray;
@@ -226,7 +225,7 @@
     }
   }
 
-  .penguin {
+  .penguin-2 {
     position: relative;
     margin: auto;
     display: block;
@@ -235,7 +234,7 @@
     height: var(--penguin-size, 300px);
   }
 
-  .right-cheek {
+  .right-cheek-2 {
     top: 15%;
     left: 35%;
     background: var(--penguin-belly, white);
@@ -244,7 +243,7 @@
     border-radius: 70% 70% 60% 60%;
   }
 
-  .left-cheek {
+  .left-cheek-2 {
     top: 15%;
     left: 5%;
     background: var(--penguin-belly, white);
@@ -253,7 +252,7 @@
     border-radius: 70% 70% 60% 60%;
   }
 
-  .belly {
+  .belly-2 {
     top: 60%;
     left: 2.5%;
     background: var(--penguin-belly, white);
@@ -262,7 +261,7 @@
     border-radius: 120% 120% 100% 100%;
   }
 
-  .penguin-top {
+  .penguin-top-2 {
     top: 10%;
     left: 25%;
     background: var(--penguin-skin, gray);
@@ -271,7 +270,7 @@
     border-radius: 70% 70% 60% 60%;
   }
 
-  .penguin-bottom {
+  .penguin-bottom-2 {
     top: 40%;
     left: 23.5%;
     background: var(--penguin-skin, gray);
@@ -280,7 +279,7 @@
     border-radius: 70% 70% 100% 100%;
   }
 
-  .right-hand {
+  .right-hand-2 {
     top: 5%;
     left: 25%;
     background: var(--penguin-skin, black);
@@ -292,26 +291,26 @@
     animation-duration: 3s;
     animation-name: wave;
     animation-iteration-count: infinite;
-    transform-origin:0% 0%;
+    transform-origin: 0% 0%;
     animation-timing-function: linear;
   }
 
   @keyframes wave {
-      10% {
-        transform: rotate(110deg);
-      }
-      20% {
-        transform: rotate(130deg);
-      }
-      30% {
-        transform: rotate(110deg);
-      }
-      40% {
-        transform: rotate(130deg);
-      }
+    10% {
+      transform: rotate(110deg);
     }
+    20% {
+      transform: rotate(130deg);
+    }
+    30% {
+      transform: rotate(110deg);
+    }
+    40% {
+      transform: rotate(130deg);
+    }
+  }
 
-  .left-hand {
+  .left-hand-2 {
     top: 0%;
     left: 75%;
     background: var(--penguin-skin, gray);
@@ -322,7 +321,7 @@
     z-index: -1;
   }
 
-  .right-feet {
+  .right-feet-2 {
     top: 85%;
     left: 60%;
     background: var(--penguin-beak, orange);
@@ -333,7 +332,7 @@
     z-index: -2222;
   }
 
-  .left-feet {
+  .left-feet-2 {
     top: 85%;
     left: 25%;
     background: var(--penguin-beak, orange);
@@ -344,7 +343,7 @@
     z-index: -2222;
   }
 
-  .right-eye {
+  .right-eye-2 {
     top: 45%;
     left: 60%;
     background: black;
@@ -353,7 +352,7 @@
     border-radius: 50%;
   }
 
-  .left-eye {
+  .left-eye-2 {
     top: 45%;
     left: 25%;
     background: black;
@@ -362,16 +361,16 @@
     border-radius: 50%;
   }
 
-  .sparkle {
+  .sparkle-2 {
     top: 25%;
-    left:-23%;
+    left: -23%;
     background: white;
     width: 150%;
     height: 100%;
     border-radius: 50%;
   }
 
-  .blush-right {
+  .blush-right-2 {
     top: 65%;
     left: 15%;
     background: pink;
@@ -380,7 +379,7 @@
     border-radius: 50%;
   }
 
-  .blush-left {
+  .blush-left-2 {
     top: 65%;
     left: 70%;
     background: pink;
@@ -389,7 +388,7 @@
     border-radius: 50%;
   }
 
-  .beak-top {
+  .beak-top-2 {
     top: 60%;
     left: 40%;
     background: var(--penguin-beak, orange);
@@ -398,7 +397,7 @@
     border-radius: 50%;
   }
 
-  .beak-bottom {
+  .beak-bottom-2 {
     top: 65%;
     left: 42%;
     background: var(--penguin-beak, orange);
@@ -408,34 +407,33 @@
   }
 
   body {
-    background:#c6faf1;
+    background: #c6faf1;
   }
 
-  .penguin * {
+  .penguin-2 * {
     position: absolute;
   }
 </style>
-<div class="penguin">
-  <div class="penguin-bottom">
-    <div class="right-hand"></div>
-    <div class="left-hand"></div>
-    <div class="right-feet"></div>
-    <div class="left-feet"></div>
+<div class="penguin-2">
+  <div class="penguin-bottom-2">
+    <div class="right-hand-2"></div>
+    <div class="left-hand-2"></div>
+    <div class="right-feet-2"></div>
+    <div class="left-feet-2"></div>
   </div>
-  <div class="penguin-top">
-    <div class="right-cheek"></div>
-    <div class="left-cheek"></div>
-    <div class="belly"></div>
-    <div class="right-eye">
-      <div class="sparkle"></div>
+  <div class="penguin-top-2">
+    <div class="right-cheek-2"></div>
+    <div class="left-cheek-2"></div>
+    <div class="belly-2"></div>
+    <div class="right-eye-2">
+      <div class="sparkle-2"></div>
     </div>
-    <div class="left-eye">
-      <div class="sparkle"></div>
+    <div class="left-eye-2">
+      <div class="sparkle-2"></div>
     </div>
-    <div class="blush-right"></div>
-    <div class="blush-left"></div>
-    <div class="beak-top"></div>
-    <div class="beak-bottom"></div>
+    <div class="blush-right-2"></div>
+    <div class="blush-left-2"></div>
+    <div class="beak-top-2"></div>
+    <div class="beak-bottom-2"></div>
   </div>
 </div>
--->
